@@ -1,3 +1,7 @@
-// const nombre = prompt("Ingrese su nombre: ")
+const cowsay = require('cowsay');
 
-console.log("Holaaaaaaaaaaaaa")
+console.log(cowsay.say({
+    text: "Holaaaa Muuundo",
+    e : "oO",
+    T : "U"
+}))
