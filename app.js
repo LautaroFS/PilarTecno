@@ -1,7 +1,9 @@
 const cowsay = require('cowsay');
 
-console.log(cowsay.say({
+const mensaje = cowsay.say({
     text: "Holaaaa Muuundo",
     e : "oO",
     T : "U"
-}))
+})
+
+console.log(mensaje)
